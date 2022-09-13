@@ -1,0 +1,9 @@
+p2p-027-项目命名规则
+		方法命名的规则:
+		方法类型					业务层(Service)					数据持久层(直接参考mapper类命名)
+			新增					 add*								intert*
+			删除					 remove*							delete*
+			修改					 modify|edit*						update
+			查询					 query|find*						select*
+
+		如果方法中同时涉及到了增删改查，那么方法名称则以业务来命名
